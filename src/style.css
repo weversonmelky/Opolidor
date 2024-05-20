@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  color: rgb(214, 238, 208);
+  background: #1a1a1a;
+  font-size: 1.6rem;
+}
+
+body::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  z-index: -1;
+  height: 2.2rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main{
+
+}
+
+
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 22px;
+  list-style: none;
+  padding-right: 10.2rem;
+  padding-top: .3rem;
+}
+
+a{
+  color: #020202e3;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #000000b0;
+}
+
+span{
+  color: rgb(0, 201, 0);
+}
