@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
+:root{
+  font-size: 62.5%;
+}
+
 body{
-  background: #000;
+  color: rgb(214, 238, 208);
+  background: #1a1a1a;
+  font-size: 1.6rem;
 }
 
 body::before{
@@ -20,9 +26,10 @@ body::before{
 }
 
 main{
-width: 100%;
-padding: 3.2rem;
+
 }
+
+
 
 nav ul{
   display: flex;
@@ -42,19 +49,6 @@ a:hover{
   color: #000000b0;
 }
 
-legend{
-  color: white;
-}
-
-fieldset span{
+span{
   color: rgb(0, 201, 0);
-}
-
-fieldset{
-  border: 0;
-}
-
-p{
-  margin: 1.2rem;
-  color: rgb(214, 238, 208);
 }
