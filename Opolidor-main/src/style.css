@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  color: rgb(223, 228, 221);
+  background: #1a1a1a;
+  font-size: 1.6rem;
+}
+
+body::before{
+  content: "";
+  position: absolute;
+  background-color: white;
+  z-index: -1;
+  height: 2.2rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main{
+  max-width: 37,500rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  max-width: 32.1rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2.2rem;
+  list-style: none;
+  padding-right: 2rem;
+  padding-top: 0.3rem;
+}
+
+ul li a{
+  color: #020202e3;
+  text-decoration: none;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #000000b0;
+}
+
+span{
+  color: rgb(0, 201, 0);
+}
+
+h2,span{
+  font-size: clamp(1rem, 0.7vh + 1rem ,2rem);
+  line-height: clamp(1rem, 0.7vh + 1.5rem, 2.3rem);
+  padding: 1.0rem ;
+  margin-top: 1.5rem;
+}
+
+p{
+  display: flex;
+  font-size: clamp(1.5rem,1vh + 1rem, 3.1rem);
+  line-height: clamp(1.5rem, 2.4rem,3.1rem);
+  margin-top: 1.5rem;
+  color: rgb(196, 190, 190);
+}
+
+#whats{
+  position: fixed;
+  bottom: 5.1rem;
+  right: 0.5rem;
+  max-width: 2.5rem;
+  cursor: pointer;
+}
